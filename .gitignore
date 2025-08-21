@@ -1,12 +1,13 @@
-*.pyc
-
-# Security Rules Added by GitGuardian Remediation
+# Environment and Configuration Files
 .env
 .env.local
 .env.development
 .env.test
 .env.production
+.env.*.local
 *.env
+
+# Secrets and Credentials
 secrets.json
 credentials.json
 *.pem
@@ -15,5 +16,60 @@ credentials.json
 *.pfx
 *.crt
 *.csr
+gcp/*.json
+aws/*.json
+*.workaround.json
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+vendor/
+.pnp
+.pnp.js
+
+# Build Outputs
+dist/
+build/
+out/
+target/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+
+# Coverage Reports
+coverage/
+*.lcov
+
+# Backup Files
 *.bak
 *.backup
+*~
