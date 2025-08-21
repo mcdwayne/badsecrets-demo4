@@ -1,0 +1,48 @@
+{
+  "river_system_config": {
+    "hippo_gateway": {
+      "api_key": "hippo_7x9y2z8w1v3u4i5o6p7q8r9s0t1u2v3w4x5y6z",
+      "secret_token": "hippo_secret_abcdef1234567890ghijklmnopqrstuvwxyz",
+      "endpoint": "https://hippo-river-api.example.com/v2"
+    },
+    "crocodile_database": {
+      "connection_string": "mongodb://crocodile:croco_pass_987654321@croc-db.example.com:27017",
+      "auth_token": "crocodile_auth_zyxwvutsrqponmlkjihgfedcba0987654321",
+      "encryption_key": "crocodile_encrypt_1234567890abcdefghijklmnopqrstuvwxyz"
+    },
+    "otter_messaging": {
+      "webhook_url": "https://otter-webhook.example.com/api/v1/notify",
+      "api_secret": "otter_webhook_secret_abcdefghijklmnopqrstuvwxyz1234567890",
+      "access_token": "otter_access_9876543210zyxwvutsrqponmlkjihgfedcba"
+    },
+    "beaver_storage": {
+      "s3_bucket": "beaver-river-storage",
+      "access_key_id": "AKIABEAVEREXAMPLE123456789",
+      "secret_access_key": "beaver_secret_key_abcdefghijklmnopqrstuvwxyz1234567890",
+      "region": "us-east-1"
+    },
+    "turtle_analytics": {
+      "tracking_id": "turtle_track_1234567890abcdefghijklmnopqrstuvwxyz",
+      "measurement_protocol_secret": "turtle_mp_secret_9876543210zyxwvutsrqponmlkjihgfedcba",
+      "api_key": "turtle_api_key_abcdefghijklmnopqrstuvwxyz1234567890"
+    },
+    "frog_notifications": {
+      "push_token": "frog_push_abcdefghijklmnopqrstuvwxyz1234567890",
+      "sms_auth_key": "frog_sms_key_9876543210zyxwvutsrqponmlkjihgfedcba",
+      "email_password": "frog_email_pass_1234567890abcdefghijklmnopqrstuvwxyz"
+    },
+    "duck_payment": {
+      "stripe_secret_key": "sk_test_duck_1234567890abcdefghijklmnopqrstuvwxyz",
+      "paypal_client_id": "duck_paypal_client_9876543210zyxwvutsrqponmlkjihgfedcba",
+      "webhook_secret": "duck_webhook_secret_abcdefghijklmnopqrstuvwxyz1234567890"
+    },
+    "heron_monitoring": {
+      "new_relic_license_key": "heron_nr_license_1234567890abcdefghijklmnopqrstuvwxyz",
+      "datadog_api_key": "heron_dd_api_9876543210zyxwvutsrqponmlkjihgfedcba",
+      "sentry_dsn": "heron_sentry_dsn_abcdefghijklmnopqrstuvwxyz1234567890"
+    }
+  },
+  "environment": "river_production",
+  "version": "2.1.0",
+  "last_updated": "2025-08-21T20:00:00Z"
+}
